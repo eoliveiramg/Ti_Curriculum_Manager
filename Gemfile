@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.2'
 
 gem 'activeadmin', github: 'gregbell/active_admin'
-gem 'coffee-rails', '~> 4.0.0'
 gem 'pg'
+gem 'puma'
 
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -30,11 +30,4 @@ group :test do
   gem 'capybara'
   gem 'capybara-webkit'
   gem 'database_cleaner'
-end
-
-group :jquery_js do
-  gem 'jquery-rails'
-  gem 'turbolinks'
-  gem 'jbuilder', '~> 2.0'
-  gem 'sdoc', '~> 0.4.0'
 end
