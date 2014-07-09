@@ -1,0 +1,14 @@
+/.bundle
+/log/*.log
+/tmp
+
+.env*
+!.env.sample
+
+config/database.yml
+!config/database.yml.sample
+
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+public/uploads/*
