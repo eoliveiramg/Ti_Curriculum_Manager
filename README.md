@@ -6,6 +6,5 @@ Ti Curriculum Manager
 ## Dependencies
 
 - Ruby 2.1.0
-- Rails 4.1.1
+- Rails 4.1.2
 - Postgresql >= 9.1
-- Imagemagick
